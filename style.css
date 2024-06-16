@@ -31,9 +31,34 @@ outline-color: azure;
 }
 
 .input-container button {
+width: 10%;    
 height: 36px;
+border-radius: 6px;
 border: none;
 color: azure;
 background-color: deeppink; 
 cursor: pointer;   
 }
+ 
+.todo-list {
+list-style-type: none;
+}
+
+.todo-list-item {
+display: flex;
+justify-content: space-between;
+margin-bottom: 10px;
+}
+
+.todo-list-item button {
+ border: none;   
+ border-radius: 5px; 
+ background-color: yellowgreen; 
+ cursor: pointer; 
+}
+
+
+
+
+
+
